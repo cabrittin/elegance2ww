@@ -1,2 +1,2 @@
 import elegance.connect
-import elegance.format
+import elegance.toWW
