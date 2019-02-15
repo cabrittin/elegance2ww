@@ -43,8 +43,7 @@ def contin_table(cur):
 
     """
     sql = ("select CON_Number,CON_AlternateName,type "
-            "from contin "
-            "where CON_Remarks like '%%OK%%'")
+            "from contin")
     cur.execute(sql)
     return [list(a) for a in cur.fetchall()]
 
